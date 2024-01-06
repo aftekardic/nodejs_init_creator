@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_init",
+  "version": "1.0.0",
+  "description": "Node JS init for creating folder structure by aftekardic",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
