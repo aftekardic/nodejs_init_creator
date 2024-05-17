@@ -1,55 +1,65 @@
-# NodeJS Base Structure Creator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJS Init Creator</title>
+</head>
+<body>
+    <h1>NodeJS Init Creator</h1>
 
-## Overview
+    <h2>Overview</h2>
+    <p>NodeJS Init Creator is a package designed to automate the creation of a basic project structure for Node.js applications. This tool helps developers quickly set up a new project with a standard directory layout and essential configuration files.</p>
 
-This package provides a convenient solution for setting up the fundamental structure of a Node.js project. It streamlines the process of creating directories, essential files, and boilerplate code to help kickstart your Node.js application development.
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Automated Setup:</strong> Generates a basic project structure with predefined directories and files.</li>
+        <li><strong>Configurable:</strong> Allows customization of the generated structure to fit specific project needs.</li>
+        <li><strong>Easy to Use:</strong> Simple commands to initialize the project, reducing setup time.</li>
+    </ul>
 
-## Features
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/aftekardic/nodejs_init_creator.git</code></pre>
+        </li>
+        <li>Navigate to the project directory:
+            <pre><code>cd nodejs_init_creator</code></pre>
+        </li>
+    </ol>
 
-- **Structured Project Setup:** Automatically generates a well-organized directory structure tailored for Node.js applications.
+    <h2>Usage</h2>
+    <p>After installation, you can use the package to create a new Node.js project structure:</p>
+    <ol>
+        <li>Run the setup script:
+            <pre><code>node scripts/setup.js</code></pre>
+        </li>
+        <li>Follow the prompts to customize your project setup.</li>
+    </ol>
 
-- **File Initialization:** Creates key files such as `app.js`, `db.js`, and `index.js` with placeholder content to guide you in building a robust application.
+    <h2>Project Structure</h2>
+    <p>The generated project structure includes:</p>
+    <pre><code>
+nodejs_init_creator/
+├── README.md
+├── package.json
+└── scripts
+    └── setup.js
+    </code></pre>
 
-- **Ready-to-Use Template:** A starting point for your Node.js project, offering a foundation that includes basic server setup, database configuration, and the main entry point for your application.
+    <h2>scripts/setup.js</h2>
+    <p>The <code>setup.js</code> script is the core of the project, responsible for creating the basic folder structure. Here’s an overview of its functionality:</p>
+    <ul>
+        <li><strong>Prompts for Project Details:</strong> Collects information such as project name, author, and description.</li>
+        <li><strong>Directory Creation:</strong> Sets up directories like <code>src</code>, <code>src/controllers</code>, <code>src/models</code>, <code>src/routes</code>, and <code>config</code>.</li>
+        <li><strong>File Initialization:</strong> Creates essential files (<code>app.js</code>, <code>db.js</code>, <code>index.js</code>) with basic boilerplate code.</li>
+        <li><strong>Package Configuration:</strong> Generates a <code>package.json</code> file with the provided project details and basic dependencies.</li>
+    </ul>
 
-## How to Use
+    <hr>
 
-### Local Testing
+    <h2>Contact</h2>
+    <p>For any questions or suggestions, feel free to open an issue or contact the repository owner.</p>
 
-1. Open the terminal in the root directory of your Node.js project.
-
-2. Use the following command to create a compressed archive (`.tgz`) of your project structure:
-
-    ```bash
-    npm pack
-    ```
-
-3. Navigate to your local project directory:
-
-    ```bash
-    cd /path/to/your/local/project
-    ```
-
-4. Install the locally created package into your project:
-
-    ```bash
-    npm install /path/to/your/package-1.0.0.tgz
-    ```
-
-
-Now, you can easily integrate this package into your Node.js projects using npm.
-
-## Example Folder Structure
-- src
-  - controllers
-  - models
-  - routes
-- config
-- app.js
-- db.js
-- index.js
-
-This structure is designed to enhance code organization and maintainability in your Node.js applications.
-
-## Contributing
-I welcome contributions and suggestions. Feel free to fork the repository, open issues, and submit pull requests.
+</body>
+</html>
