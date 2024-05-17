@@ -61,17 +61,6 @@ The `setup.js` script is the core of the project, responsible for creating the b
 *   **File Initialization:** Creates essential files (`app.js`, `db.js`, `index.js`) with basic boilerplate code.
 *   **Package Configuration:** Generates a `package.json` file with the provided project details and basic dependencies.
 
-Contributing
-------------
-
-Contributions are welcome! Please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature-branch`).
-3.  Commit your changes (`git commit -am 'Add new feature'`).
-4.  Push to the branch (`git push origin feature-branch`).
-5.  Create a new Pull Request.
-
 * * *
 
 Contact
