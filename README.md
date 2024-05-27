@@ -1,5 +1,3 @@
-  NodeJS Init Creator
-
 NodeJS Init Creator
 ===================
 
